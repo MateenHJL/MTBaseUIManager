@@ -1,0 +1,23 @@
+PODS:
+  - BaseUIManager (1.0.0):
+    - pop
+  - pop (1.0.12)
+
+DEPENDENCIES:
+  - BaseUIManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - pop
+
+EXTERNAL SOURCES:
+  BaseUIManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseUIManager: 75f0f701b669971ef68908e4849b946c20855cac
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+
+PODFILE CHECKSUM: 44164596464d0a0a2756ebc637d90e4f315f5323
+
+COCOAPODS: 1.10.0

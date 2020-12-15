@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		22E42637B632BF6A10C4A138 /* Pods-BaseUIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Example.release.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Example/Pods-BaseUIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		427B7CF71C6695DD3C34ABC1 /* Pods-BaseUIManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Tests/Pods-BaseUIManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4EA82C379C9E6CE459477D98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4EA82C379C9E6CE459477D98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		588C4874C9DA1FCE0175CF04 /* Pods-BaseUIManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Tests/Pods-BaseUIManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BaseUIManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseUIManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		736338A8D56A4EF060F8C1B5 /* Pods-BaseUIManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Example/Pods-BaseUIManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		81B58A401E9CE9B11152F46E /* Pods_BaseUIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUIManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B472470B241D0F13E03CF752 /* BaseUIManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BaseUIManager.podspec; path = ../BaseUIManager.podspec; sourceTree = "<group>"; };
+		B472470B241D0F13E03CF752 /* BaseUIManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BaseUIManager.podspec; path = ../BaseUIManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF910633897498012934685E /* Pods_BaseUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF20EE8CEBBAF17F5B096151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EF20EE8CEBBAF17F5B096151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				588C4874C9DA1FCE0175CF04 /* Pods-BaseUIManager_Tests.debug.xcconfig */,
 				427B7CF71C6695DD3C34ABC1 /* Pods-BaseUIManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +324,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BaseUIManager_Example/Pods-BaseUIManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BaseUIManager/BaseUIManager.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BaseUIManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
