@@ -18,10 +18,10 @@
         _showBottomLine = NO;
         _topLineEdgeInsets = UIEdgeInsetsZero;
         _bottomLineEdgeInsets = UIEdgeInsetsZero;
-        _topLineColor = kLineColor;
-        _bottomLineColor = kLineColor;
-        self.topLineHeight = kLineHeight;
-        self.bottomLineHeight = kLineHeight;
+//        _topLineColor = kLineColor;
+//        _bottomLineColor = kLineColor;
+//        self.topLineHeight = kLineHeight;
+//        self.bottomLineHeight = kLineHeight;
     }
     return self;
 }

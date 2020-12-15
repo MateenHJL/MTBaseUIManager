@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <pop/POP.h>
+#import "commonFile.h"
 
 typedef void(^animationDidEnd)(POPAnimation *animation, BOOL isFinished);
 

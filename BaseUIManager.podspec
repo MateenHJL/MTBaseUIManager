@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.0.1'
+  s.version          = '1.1.1'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,11 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'pop'
-   s.dependency 'ChameleonFramework'
+#   s.frameworks = 'UIKit',
+
+  s.dependency 'ChameleonFramework'
+  s.dependency 'pop'
+   
+  s.requires_arc = true
+   
 end

@@ -17,6 +17,7 @@
 #import "BaseKvoObserveItem.h"
 #import "BaseViewModel.h"
 #import "UIView+Animation.h"
+#import "CommonFile.h"
 
 FOUNDATION_EXPORT double BaseUIManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseUIManagerVersionString[];

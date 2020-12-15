@@ -21,6 +21,6 @@
 #import "BaseCellLineViewModel.h"
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "UIColor+Chameleon.h"
+#import <ChameleonFramework/Chameleon.h>
 
 #endif /* CommonFile_h */
