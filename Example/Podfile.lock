@@ -1,5 +1,5 @@
 PODS:
-  - BaseUIManager (1.1.1):
+  - BaseUIManager (1.2.0):
     - ChameleonFramework
     - pop
   - ChameleonFramework (2.1.0):
@@ -9,7 +9,6 @@ PODS:
 
 DEPENDENCIES:
   - BaseUIManager (from `../`)
-  - ChameleonFramework
 
 SPEC REPOS:
   trunk:
@@ -21,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseUIManager: c75057ce2764c2fe5edb4fa01e0e88a36ac735ac
+  BaseUIManager: 9017b99ea41ad4fdacc69258a3a57a1043c97c3b
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
-PODFILE CHECKSUM: de9d3fd3a6a6551a631a79637d50b17915a87608
+PODFILE CHECKSUM: ef1b6d878245b510dec52c6c21d66051a41f13ab
 
 COCOAPODS: 1.10.0

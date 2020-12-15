@@ -17,6 +17,7 @@
 #import <objc/runtime.h>
 #import <pop/POP.h>
 #import "UIView+Animation.h"
+#import "UIFont+AdjustFont.h"
 #import "BaseTableViewCell.h"
 #import "BaseCellLineViewModel.h"
 #import <Foundation/Foundation.h>

@@ -4,7 +4,6 @@ platform :ios, '9.0'
 
 target 'BaseUIManager_Example' do
   pod 'BaseUIManager', :path => '../'
-  pod 'ChameleonFramework'
   
   target 'BaseUIManager_Tests' do
     inherit! :search_paths
