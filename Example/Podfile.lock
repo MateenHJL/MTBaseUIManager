@@ -1,5 +1,5 @@
 PODS:
-  - BaseUIManager (1.2.1):
+  - BaseUIManager (1.2.3):
     - ChameleonFramework
     - pop
   - ChameleonFramework (2.1.0):
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseUIManager: d639b9ce625e3ba0d196402d17814ee21dd5deda
+  BaseUIManager: 2433196e789ffcd6bcb32cbfbba0bb0b45f07d18
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
