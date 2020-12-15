@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonFile.h"
 
 @interface UITableViewCell (LazyInitUIKit)
 

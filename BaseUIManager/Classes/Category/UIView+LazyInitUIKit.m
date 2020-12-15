@@ -7,7 +7,6 @@
 //
 
 #import "UITableViewCell+LazyInitUIKit.h"
-#import <objc/runtime.h>
 
 typedef NS_ENUM(NSInteger , UITableViewCellUIType) {
     UITableViewCellUIType_unKnown = 99999,//非UI类型
