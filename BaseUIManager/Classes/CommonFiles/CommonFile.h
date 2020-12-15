@@ -24,5 +24,7 @@
 #import <UIKit/UIKit.h>
 #import <ChameleonFramework/Chameleon.h>
 #import "KitFactory.h"
+#import "UIView+LazyInitUIKit.h"
+#import "UITableViewCell+LazyInitUIKit.h"
 
 #endif /* CommonFile_h */
