@@ -23,5 +23,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <ChameleonFramework/Chameleon.h>
+#import "KitFactory.h"
 
 #endif /* CommonFile_h */
