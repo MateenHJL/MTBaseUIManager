@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewModel.h"
+#import "CommonFile.h"
 
 @interface BaseCollectionViewCell : UICollectionViewCell
 

@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "BaseCollectionViewCell.h"
+#import "BaseTableViewCell.h"
+#import "BaseView.h"
+#import "BaseCellLineViewModel.h"
+#import "BaseKvoObserveItem.h"
+#import "BaseViewModel.h"
+#import "UIView+Animation.h"
 
 FOUNDATION_EXPORT double BaseUIManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseUIManagerVersionString[];

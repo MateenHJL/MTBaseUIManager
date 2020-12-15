@@ -7,7 +7,6 @@
 //
 
 #import "BaseCollectionViewCell.h"
-#import <objc/runtime.h>
 
 #define MTBaseViewModel @"MTBaseViewModel"
 

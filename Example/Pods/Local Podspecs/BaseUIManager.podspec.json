@@ -1,6 +1,6 @@
 {
   "name": "BaseUIManager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM",
   "description": "the framework can used your project,you just need create UI(View、Cell、CollectionViewCell) whatever it is, the it will be.",
   "homepage": "https://github.com/MateenHJL/MTBaseUIManager.git",
@@ -13,14 +13,17 @@
   },
   "source": {
     "git": "https://github.com/MateenHJL/MTBaseUIManager.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "UIManager/Classes/**/*.{h,m}",
+  "source_files": "BaseUIManager/Classes/**/*.{h,m}",
   "dependencies": {
     "pop": [
+
+    ],
+    "ChameleonFramework": [
 
     ]
   }

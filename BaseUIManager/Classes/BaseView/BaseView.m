@@ -6,19 +6,13 @@
 //  Copyright © 2018年 YouShuLa_IOS. All rights reserved.
 //
 
-#import "BaseView.h"
-#import "BaseViewModel.h"
-#import <pop/POP.h>
-#import <objc/runtime.h>
-#import "UIView+Animation.h"
+#import "BaseView.h" 
 
 #define MTBaseViewModel @"MTBaseViewModel"
 
 @interface BaseView ()
-{
-    animationDidEndBlock _animationDidEndBlock;
-}
 
+@property (nonatomic,copy    ) animationDidEndBlock animationDidEndBlock;
 @property (nonatomic,strong  ) UIImageView   *topLine;
 @property (nonatomic,strong  ) UIImageView   *bottomLine;
 
@@ -61,9 +55,9 @@
         case BASEVIEWANIMATIONTYPE_FADE:
         {
             [self animationWithFadeCompletedUsing:^(POPAnimation *animation, BOOL isFinished) {
-                if (_animationDidEndBlock)
+                if (self.animationDidEndBlock)
                 {
-                    _animationDidEndBlock (animation, isFinished);
+                    self.animationDidEndBlock (animation, isFinished);
                 }
             }];
         }
@@ -71,9 +65,9 @@
         case BASEVIEWANIMATIONTYPE_POINT:
         {
             [self animationWithPointCompletedUsing:^(POPAnimation *animation, BOOL isFinished) {
-                if (_animationDidEndBlock)
+                if (self.animationDidEndBlock)
                 {
-                    _animationDidEndBlock (animation, isFinished);
+                    self.animationDidEndBlock (animation, isFinished);
                 }
             }];
         }
@@ -81,9 +75,9 @@
         case BASEVIEWANIMATIONTYPE_SIZE:
         {
             [self animationWithSizeCompletedUsing:^(POPAnimation *animation, BOOL isFinished) {
-                if (_animationDidEndBlock)
+                if (self.animationDidEndBlock)
                 {
-                    _animationDidEndBlock (animation, isFinished);
+                    self.animationDidEndBlock (animation, isFinished);
                 }
             }];
         }
@@ -91,9 +85,9 @@
         case BASEVIEWANIMATIONTYPE_RECT:
         {
             [self animationWithRectCompletedUsing:^(POPAnimation *animation, BOOL isFinished) {
-                if (_animationDidEndBlock)
+                if (self.animationDidEndBlock)
                 {
-                    _animationDidEndBlock (animation, isFinished);
+                    self.animationDidEndBlock (animation, isFinished);
                 }
             }];
         }

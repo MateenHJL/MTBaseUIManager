@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import "BaseTableViewCell.h"
-#import "BaseCellLineViewModel.h"
+#import "CommonFile.h"
 
 @class BaseCellLineViewModel;
 @class BaseView;
 @class BaseCollectionViewCell; 
+@class BaseTableViewCell;
 
 typedef NS_ENUM(NSInteger , BaseViewModelKVOUIType) {
     BaseViewModelKVOUIType_Cell,//BaseTableviewCell

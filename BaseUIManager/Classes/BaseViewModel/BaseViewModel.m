@@ -6,8 +6,7 @@
 //  Copyright © 2016年 MaTeen. All rights reserved.
 //
 
-#import "BaseViewModel.h"
-#import "BaseCellLineViewModel.h"
+#import "BaseViewModel.h" 
 
 @interface BaseViewModel ()
 

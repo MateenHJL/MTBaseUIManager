@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseViewModel.h"
+#import "CommonFile.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
