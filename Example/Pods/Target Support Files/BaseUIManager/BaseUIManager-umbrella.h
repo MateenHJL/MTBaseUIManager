@@ -25,6 +25,10 @@
 #import "CommonFile.h"
 #import "PodsIncludeCommon.h"
 #import "KitFactory.h"
+#import "AdjustCommonFile.h"
+#import "CategoryCommon.h"
+#import "CommonFile.h"
+#import "PodsIncludeCommon.h"
 
 FOUNDATION_EXPORT double BaseUIManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseUIManagerVersionString[];

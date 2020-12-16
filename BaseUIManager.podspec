@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.2.8'
+  s.version          = '1.2.9'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.
@@ -34,12 +34,20 @@ Pod::Spec.new do |s|
   #   'Mateen' => ['Mateen/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
 #   s.frameworks = 'UIKit',
 
   s.dependency 'ChameleonFramework'
   s.dependency 'pop'
    
+  s.static_framework = true
   s.requires_arc = true
+  s.default_subspec = 'CommonFiles'
+  
+  s.subspec 'CommonFiles' do |core|
+      core.source_files = 'BaseUIManager/Classes/CommonFiles/**/*'
+      core.public_header_files = 'BaseUIManager/Classes/CommonFiles/**/*.h'
+      core.frameworks = 'UIKit'
+  end
    
 end
