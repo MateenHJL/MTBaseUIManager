@@ -12,6 +12,9 @@
 #define kLineHeight 1
 #define kLineColor rgba(0,0,0,0.04)
 
+//adjustTheFont depends on whatever your device is.
+#define kAdjustFont(x) [UIFont adjustFontFromFontSize:x]
+
 //import something
 #import "BaseViewModel.h"
 #import <objc/runtime.h>
