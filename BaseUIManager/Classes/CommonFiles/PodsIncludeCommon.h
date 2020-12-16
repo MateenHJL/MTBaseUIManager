@@ -10,5 +10,6 @@
 
 #import <ChameleonFramework/Chameleon.h>
 #import <pop/POP.h>
+#import "KVOController.h"
 
 #endif /* PodsIncludeCommon_h */
