@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.2.7'
+  s.version          = '1.2.8'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/MateenHJL/MTBaseUIManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MateenHJL' => '13162378587@163.com' }
+  s.author           = 'Mateen';
   s.source           = { :git => 'https://github.com/MateenHJL/MTBaseUIManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   #   'Mateen' => ['Mateen/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
 #   s.frameworks = 'UIKit',
 
   s.dependency 'ChameleonFramework'
