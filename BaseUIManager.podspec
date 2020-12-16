@@ -44,10 +44,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.default_subspec = 'CommonFiles'
   
-  s.subspec 'CommonFiles' do |CommonFiles|
-      CommonFiles.source_files = 'BaseUIManager/Classes/CommonFiles/**/*'
-      CommonFiles.public_header_files = 'BaseUIManager/Classes/CommonFiles/**/*.h'
-      CommonFiles.frameworks = 'UIKit'
+  s.subspec 'CommonFiles' do |commonFiles|
+      commonFiles.source_files = 'BaseUIManager/Classes/CommonFiles/**/*'
+      commonFiles.public_header_files = 'BaseUIManager/Classes/CommonFiles/**/*.h'
+      commonFiles.frameworks = 'UIKit'
   end
    
 end
