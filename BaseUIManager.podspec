@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.2.9'
+  s.version          = '1.3.0'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.default_subspec = 'CommonFiles'
   
-  s.subspec 'CommonFiles' do |core|
+  s.subspec 'CommonFiles' do |CommonFiles|
       core.source_files = 'BaseUIManager/Classes/CommonFiles/**/*'
       core.public_header_files = 'BaseUIManager/Classes/CommonFiles/**/*.h'
       core.frameworks = 'UIKit'
