@@ -7,7 +7,7 @@
 //
 
 #import "UIView+Animation.h"
-#import <objc/runtime.h>
+#import "CommonFile.h"
 
 #define kAlphaValue @"kAlphaValue"
 #define kPointValue @"kPointValue"

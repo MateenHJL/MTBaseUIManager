@@ -20,7 +20,10 @@
 #import "UITableViewCell+LazyInitUIKit.h"
 #import "UIView+Animation.h"
 #import "UIView+LazyInitUIKit.h"
+#import "AdjustCommonFile.h"
+#import "CategoryCommon.h"
 #import "CommonFile.h"
+#import "PodsIncludeCommon.h"
 #import "KitFactory.h"
 
 FOUNDATION_EXPORT double BaseUIManagerVersionNumber;

@@ -8,26 +8,19 @@
 #ifndef CommonFile_h
 #define CommonFile_h
 
-//define Something
-#define kLineHeight 1
-#define kLineColor rgba(0,0,0,0.04)
-
-//adjustTheFont depends on whatever your device is.
-#define kAdjustFont(x) [UIFont adjustFontFromFontSize:x]
-
 //import something
-#import "BaseViewModel.h"
-#import <objc/runtime.h>
-#import <pop/POP.h>
-#import "UIView+Animation.h"
-#import "UIFont+AdjustFont.h"
-#import "BaseTableViewCell.h"
-#import "BaseCellLineViewModel.h"
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <ChameleonFramework/Chameleon.h>
+#import <objc/runtime.h>
+
+#import "BaseViewModel.h"
+#import "BaseTableViewCell.h"
+#import "BaseCellLineViewModel.h"
+
 #import "KitFactory.h"
-#import "UIView+LazyInitUIKit.h"
-#import "UITableViewCell+LazyInitUIKit.h"
+
+#import "CategoryCommon.h"
+#import "AdjustCommonFile.h"
+#import "PodsIncludeCommon.h"
 
 #endif /* CommonFile_h */

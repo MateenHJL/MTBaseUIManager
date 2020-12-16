@@ -8,6 +8,10 @@
 
 #import "BaseCellLineViewModel.h"
  
+//define Something for CellLineViewModel
+#define kLineHeight 1
+#define kLineColor rgba(0, 0, 0, 0.04)
+
 @implementation BaseCellLineViewModel
 
 - (instancetype)init
@@ -18,10 +22,10 @@
         _showBottomLine = NO;
         _topLineEdgeInsets = UIEdgeInsetsZero;
         _bottomLineEdgeInsets = UIEdgeInsetsZero;
-//        _topLineColor = kLineColor;
-//        _bottomLineColor = kLineColor;
-//        self.topLineHeight = kLineHeight;
-//        self.bottomLineHeight = kLineHeight;
+        _topLineColor = kLineColor;
+        _bottomLineColor = kLineColor;
+        self.topLineHeight = kLineHeight;
+        self.bottomLineHeight = kLineHeight;
     }
     return self;
 }
