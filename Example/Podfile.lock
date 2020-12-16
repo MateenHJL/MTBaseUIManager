@@ -1,14 +1,12 @@
 PODS:
-  - BaseUIManager (1.3.1):
-    - BaseUIManager/CommonFiles (= 1.3.1)
+  - BaseUIManager (1.3.3):
     - ChameleonFramework
-    - pop
-  - BaseUIManager/CommonFiles (1.3.1):
-    - ChameleonFramework
+    - KVOController
     - pop
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
+  - KVOController (1.2.0)
   - pop (1.0.12)
 
 DEPENDENCIES:
@@ -17,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - ChameleonFramework
+    - KVOController
     - pop
 
 EXTERNAL SOURCES:
@@ -24,8 +23,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseUIManager: b03f21108114630769e63c87e51a6eb06cbf7899
+  BaseUIManager: c9b1eaea809831c943a173608ae0fc2463a88968
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
 PODFILE CHECKSUM: ef1b6d878245b510dec52c6c21d66051a41f13ab
