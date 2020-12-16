@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		056F6E43A9A4853889A74D72 /* Pods_BaseUIManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B58A401E9CE9B11152F46E /* Pods_BaseUIManager_Tests.framework */; };
+		18F083B12589BA1E00E5E4C1 /* OneButtonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F083A62589BA1E00E5E4C1 /* OneButtonViewModel.m */; };
+		18F083B22589BA1E00E5E4C1 /* VirtualLineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F083A72589BA1E00E5E4C1 /* VirtualLineViewModel.m */; };
+		18F083B32589BA1E00E5E4C1 /* VirtualLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F083AE2589BA1E00E5E4C1 /* VirtualLineCell.m */; };
+		18F083B42589BA1E00E5E4C1 /* OneButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F083AF2589BA1E00E5E4C1 /* OneButtonCell.m */; };
+		18F083B72589BA5900E5E4C1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F083B52589BA5900E5E4C1 /* TestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F083A62589BA1E00E5E4C1 /* OneButtonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneButtonViewModel.m; sourceTree = "<group>"; };
+		18F083A72589BA1E00E5E4C1 /* VirtualLineViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualLineViewModel.m; sourceTree = "<group>"; };
+		18F083A82589BA1E00E5E4C1 /* OneButtonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneButtonViewModel.h; sourceTree = "<group>"; };
+		18F083A92589BA1E00E5E4C1 /* VirtualLineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualLineViewModel.h; sourceTree = "<group>"; };
+		18F083AC2589BA1E00E5E4C1 /* VirtualLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualLineCell.h; sourceTree = "<group>"; };
+		18F083AD2589BA1E00E5E4C1 /* OneButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneButtonCell.h; sourceTree = "<group>"; };
+		18F083AE2589BA1E00E5E4C1 /* VirtualLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualLineCell.m; sourceTree = "<group>"; };
+		18F083AF2589BA1E00E5E4C1 /* OneButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneButtonCell.m; sourceTree = "<group>"; };
+		18F083B52589BA5900E5E4C1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		18F083B62589BA5900E5E4C1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		22E42637B632BF6A10C4A138 /* Pods-BaseUIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Example.release.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Example/Pods-BaseUIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		427B7CF71C6695DD3C34ABC1 /* Pods-BaseUIManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseUIManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-BaseUIManager_Tests/Pods-BaseUIManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4EA82C379C9E6CE459477D98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -51,8 +65,6 @@
 		6003F59B195388D20070C39A /* BaseUIManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseUIManager-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BaseUIManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseUIManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -106,6 +118,55 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		18F083A42589BA1E00E5E4C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F083B62589BA5900E5E4C1 /* TestViewController.h */,
+				18F083B52589BA5900E5E4C1 /* TestViewController.m */,
+				18F083A52589BA1E00E5E4C1 /* ViewModel */,
+				18F083AA2589BA1E00E5E4C1 /* ViewModelManager */,
+				18F083AB2589BA1E00E5E4C1 /* Cell */,
+				18F083B02589BA1E00E5E4C1 /* View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F083A52589BA1E00E5E4C1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18F083A62589BA1E00E5E4C1 /* OneButtonViewModel.m */,
+				18F083A72589BA1E00E5E4C1 /* VirtualLineViewModel.m */,
+				18F083A82589BA1E00E5E4C1 /* OneButtonViewModel.h */,
+				18F083A92589BA1E00E5E4C1 /* VirtualLineViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18F083AA2589BA1E00E5E4C1 /* ViewModelManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModelManager;
+			sourceTree = "<group>";
+		};
+		18F083AB2589BA1E00E5E4C1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F083AC2589BA1E00E5E4C1 /* VirtualLineCell.h */,
+				18F083AD2589BA1E00E5E4C1 /* OneButtonCell.h */,
+				18F083AE2589BA1E00E5E4C1 /* VirtualLineCell.m */,
+				18F083AF2589BA1E00E5E4C1 /* OneButtonCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18F083B02589BA1E00E5E4C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -143,11 +204,10 @@
 		6003F593195388D20070C39A /* Example for BaseUIManager */ = {
 			isa = PBXGroup;
 			children = (
+				18F083A42589BA1E00E5E4C1 /* Controller */,
 				6003F59C195388D20070C39A /* MTAppDelegate.h */,
 				6003F59D195388D20070C39A /* MTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MTViewController.h */,
-				6003F5A6195388D20070C39A /* MTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -368,8 +428,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F083B22589BA1E00E5E4C1 /* VirtualLineViewModel.m in Sources */,
+				18F083B12589BA1E00E5E4C1 /* OneButtonViewModel.m in Sources */,
+				18F083B72589BA5900E5E4C1 /* TestViewController.m in Sources */,
+				18F083B42589BA1E00E5E4C1 /* OneButtonCell.m in Sources */,
+				18F083B32589BA1E00E5E4C1 /* VirtualLineCell.m in Sources */,
 				6003F59E195388D20070C39A /* MTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
