@@ -12,7 +12,7 @@
 
 @class BaseViewModel;
 
-@interface BaseTableViewCell : UITableViewCell
+@interface BaseTableViewCell : MGSwipeTableCell
 
 @property (nonatomic,weak) id delegate;
 
