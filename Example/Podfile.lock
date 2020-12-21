@@ -1,12 +1,14 @@
 PODS:
-  - BaseUIManager (1.3.5):
+  - BaseUIManager (1.3.6):
     - ChameleonFramework
     - KVOController
+    - MGSwipeTableCell
     - pop
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
   - KVOController (1.2.0)
+  - MGSwipeTableCell (1.6.11)
   - pop (1.0.12)
 
 DEPENDENCIES:
@@ -16,6 +18,7 @@ SPEC REPOS:
   trunk:
     - ChameleonFramework
     - KVOController
+    - MGSwipeTableCell
     - pop
 
 EXTERNAL SOURCES:
@@ -23,9 +26,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseUIManager: c95e165f7095de39c76c3295c16bfef7a4be0a09
+  BaseUIManager: 61679b52841b7397a6328e942406324ca3dbc8c1
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
 PODFILE CHECKSUM: ef1b6d878245b510dec52c6c21d66051a41f13ab

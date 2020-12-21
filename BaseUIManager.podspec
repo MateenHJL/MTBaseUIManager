@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.3.6'
+  s.version          = '1.3.7'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,8 @@ Pod::Spec.new do |s|
   s.dependency 'ChameleonFramework'
   s.dependency 'pop'
   s.dependency 'KVOController'
-   
+  s.dependency 'MGSwipeTableCell'
+ 
   s.static_framework = true
   s.requires_arc = true
    
