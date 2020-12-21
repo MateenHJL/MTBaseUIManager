@@ -30,6 +30,15 @@
 //StatusBarHeight + navigationBarHeight
 #define kNavigationHeight ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax) ? 88 : 64)
 
+//tabbar高度
+#define kTabbarHeight ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax) ? 83 : 49)
+
+//是否是iphone
+#define kIsIPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
+//是否是ipad
+#define kIsIpad (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPad)
+
 //adjustPercentSize depends on whatever your device is ,（your device physical height / iphone 6's physical height）
 #define kPercentageHeight(height) (yScreenHeight *(height)/667)
 #define kPercentageWidth(width) (yScreenWidth / 375 * width)
