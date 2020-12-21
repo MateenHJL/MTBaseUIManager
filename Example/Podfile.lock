@@ -1,5 +1,5 @@
 PODS:
-  - BaseUIManager (1.3.6):
+  - BaseUIManager (1.3.8):
     - ChameleonFramework
     - KVOController
     - MGSwipeTableCell
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseUIManager: 61679b52841b7397a6328e942406324ca3dbc8c1
+  BaseUIManager: ba5b4d4162d41274e8359c32a6355e48c90ab2b4
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce

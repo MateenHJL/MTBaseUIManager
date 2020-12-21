@@ -31,8 +31,8 @@
 #define kNavigationHeight ((kIPhoneX || kIPhoneXR || kIPhoneXS || kIPhoneXSMax) ? 88 : 64)
 
 //adjustPercentSize depends on whatever your device is ,（your device physical height / iphone 6's physical height）
-#define kPercentHeight(height) (yScreenHeight *(height)/667)
-#define kPercentWidth(width) (yScreenWidth / 375 * width)
+#define kPercentageHeight(height) (yScreenHeight *(height)/667)
+#define kPercentageWidth(width) (yScreenWidth / 375 * width)
 
 //the current device is Retina or not device;
 #define kIsRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
