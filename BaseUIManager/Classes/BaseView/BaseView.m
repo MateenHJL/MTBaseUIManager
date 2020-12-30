@@ -160,6 +160,7 @@
 
     float screenWidth = self.bounds.size.width;
     float screenHieght = self.bounds.size.height;
+    
     self.topLine.hidden = !self.baseViewModel.cellLineViewModel.isShowTopLine;
     self.bottomLine.hidden = !self.baseViewModel.cellLineViewModel.isShowBottomLine;
     
