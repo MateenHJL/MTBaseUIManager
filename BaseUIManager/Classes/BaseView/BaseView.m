@@ -158,8 +158,8 @@
 {
     [super layoutSubviews];
 
-    float screenWidth = [UIScreen mainScreen].bounds.size.width;
-    float screenHieght = [UIScreen mainScreen].bounds.size.height;
+    float screenWidth = self.bounds.size.width;
+    float screenHieght = self.bounds.size.height;
     self.topLine.hidden = !self.baseViewModel.cellLineViewModel.isShowTopLine;
     self.bottomLine.hidden = !self.baseViewModel.cellLineViewModel.isShowBottomLine;
     
