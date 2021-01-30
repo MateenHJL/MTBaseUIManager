@@ -7,12 +7,20 @@
 //
 
 #import "UIFont+AdjustFont.h"
+#import <BaseUIManager/AdjustCommonFile.h>
 
 @implementation UIFont (AdjustFont)
 
 + (CGFloat)adjustFontFromFontSize:(CGFloat)size
 {
-    return size * [[UIScreen mainScreen]bounds].size.width / 375.0;
+    if (kIsIPHONE)
+    {
+        return size * [[UIScreen mainScreen]bounds].size.width / 375.0;
+    }
+    else
+    {
+        return size * [UIScreen mainScreen].bounds.size.width / 768.0;
+    }
 }
 
 @end
