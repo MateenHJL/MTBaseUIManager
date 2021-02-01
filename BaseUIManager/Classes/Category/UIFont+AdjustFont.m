@@ -13,7 +13,7 @@
 
 + (CGFloat)adjustFontFromFontSize:(CGFloat)size
 {
-    if (kIsIPHONE)
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
     {
         return size * [[UIScreen mainScreen]bounds].size.width / 375.0;
     }

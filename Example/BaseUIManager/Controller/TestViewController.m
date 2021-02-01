@@ -114,7 +114,7 @@
     self.table                 = [KitFactory tableView];
     self.table.delegate        = self;
     self.table.dataSource      = self;
-    self.table.frame           = CGRectMake(0,  kNavigationHeight, self.view.frame.size.width, self.view.frame.size.height - kNavigationHeight);
+    self.table.frame           = CGRectMake(0,  0, self.view.frame.size.width, self.view.frame.size.height);
     [self.view addSubview:self.table];
     
     
