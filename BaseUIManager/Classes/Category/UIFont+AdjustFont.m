@@ -21,7 +21,7 @@
         }
         else if ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationLandscapeLeft || [UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationLandscapeRight)
         {
-            return size * [[UIScreen mainScreen]bounds].size.height / 667.0;
+            return size * [[UIScreen mainScreen]bounds].size.height / 375.0;
         }
         return size * [[UIScreen mainScreen]bounds].size.width / 375.0;
     }
@@ -33,7 +33,7 @@
         }
         else if ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationLandscapeLeft || [UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationLandscapeRight)
         {
-            return size * [[UIScreen mainScreen]bounds].size.height / 1024.0;
+            return size * [[UIScreen mainScreen]bounds].size.height / 768.0;
         }
         return size * [UIScreen mainScreen].bounds.size.width / 768.0;
     }
