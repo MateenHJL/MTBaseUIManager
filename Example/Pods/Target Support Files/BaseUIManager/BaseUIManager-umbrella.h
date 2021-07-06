@@ -11,12 +11,17 @@
 #endif
 
 #import "BaseCollectionViewCell.h"
+#import "BaseTableManager.h"
+#import "GroupTableViewManager.h"
+#import "SimpleTableViewManage.h"
 #import "BaseTableViewCell.h"
 #import "BaseView.h"
 #import "BaseCellLineViewModel.h"
 #import "BaseKvoObserveItem.h"
 #import "BaseViewModel.h"
+#import "NSObject+BottomSafeViewHeight.h"
 #import "UIFont+AdjustFont.h"
+#import "UITableView+RegisterCellClass.h"
 #import "UITableViewCell+LazyInitUIKit.h"
 #import "UIView+Animation.h"
 #import "UIView+LazyInitUIKit.h"

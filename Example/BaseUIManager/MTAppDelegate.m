@@ -8,7 +8,7 @@
 
 #import "MTAppDelegate.h"
 #import "TestViewController.h"
-
+#import "TableViewController.h"
 #import <BaseUIManager/CommonFile.h>
 
 @implementation MTAppDelegate
@@ -17,7 +17,7 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[TestViewController alloc] init]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[TableViewController alloc] init]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

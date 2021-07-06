@@ -37,11 +37,6 @@
     }
 }
 
-- (NSMutableArray *)subViewModelArray
-{
-    return nil;
-}
-
 - (NSMutableArray *)keyPaths
 {
     if (!_keyPaths)
