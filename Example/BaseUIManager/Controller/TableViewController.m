@@ -36,6 +36,9 @@
     manager.table.frame = CGRectMake(0, 88, self.view.frame.size.width, self.view.frame.size.height - 88);
     [manager setDidSelectBlock:^(BaseTableManager * _Nonnull tableViewManager, UITableView * _Nonnull table, NSIndexPath * _Nonnull indexPath, BaseViewModel * _Nullable sectionViewModel, BaseViewModel * _Nonnull rowViewModel) {
     }];
+    [manager setWillDisplayCellBlock:^(BaseTableManager * _Nonnull tableViewManager, UITableView * _Nonnull table, BaseTableViewCell * _Nonnull cell, NSIndexPath * _Nonnull indexPath) {
+            
+    }];
     [self.view addSubview:manager.table];
         
     NSMutableArray *viewModels = [NSMutableArray array];

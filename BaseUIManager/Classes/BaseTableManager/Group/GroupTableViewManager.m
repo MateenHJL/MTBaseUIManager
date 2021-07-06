@@ -55,6 +55,14 @@
     }
     [_table reloadData];
 }
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (self.willDisplayCellBlock)
+    {
+        self.willDisplayCellBlock(self, tableView, cell, indexPath);
+    }
+}
  
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

@@ -11,10 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
  
+@class BaseTableViewCell;
 @class BaseViewModel;
 @class BaseTableManager;
 
+//didSelectRowAtIndexPath
 typedef void(^BaseTableManagerDidSelectRowAtIndexPathBlock)(BaseTableManager *tableViewManager, UITableView *table, NSIndexPath *indexPath, BaseViewModel * _Nullable sectionViewModel, BaseViewModel *rowViewModel);
+
+//WillDisplayCellBlock
+typedef void(^BaseTableManagerWillDisplayCellBlock)(BaseTableManager *tableViewManager, UITableView *table, BaseTableViewCell *cell, NSIndexPath *indexPath);
 
 @interface BaseTableManager : NSObject
 
@@ -22,6 +27,7 @@ typedef void(^BaseTableManagerDidSelectRowAtIndexPathBlock)(BaseTableManager *ta
 @property (nonatomic, readonly  ) NSMutableArray *viewModels;
 @property (nonatomic, assign, readonly) id target;
 @property (nonatomic, copy      ) BaseTableManagerDidSelectRowAtIndexPathBlock didSelectBlock;
+@property (nonatomic, copy      ) BaseTableManagerWillDisplayCellBlock willDisplayCellBlock;
 
 - (instancetype)initWithTarget:(id)target;
 
