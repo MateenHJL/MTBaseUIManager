@@ -122,6 +122,8 @@
 		C3DEAF73DAC9954174D80CF7A6164550 /* UIFont+AdjustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035328BDB4D27B645720327132C59C1 /* UIFont+AdjustFont.m */; };
 		C48AD522363D2B67ADA7D4A7AEDA9ADF /* Pods-BaseUIManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CCA7BE3890BB27A08C397590E14808 /* Pods-BaseUIManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4993E0305EB7E256D1AB421A78BD7FB /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6D98C0FFCBAEC9252569509A442AF4 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5A708BD27EC1F90004F35BA /* KVOItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A708B927EC1F90004F35BA /* KVOItem.m */; };
+		C5A708BF27EC1F90004F35BA /* KVOItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A708BB27EC1F90004F35BA /* KVOItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C67E91031F6A2E3B7F3CAB58A7DD0E63 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D7F38C7B98B9B2164E15F0CE77450E /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C703C3AAD1B97590D41BF97107C67A69 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6E92E4DF34FC64D14F548EB279F11294 /* POPBasicAnimation.mm */; };
 		C7DAF8F7E25441C08DE0AB2CA05038E1 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3A9716FE7EA15C2CE785F629B6585F /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -235,13 +237,13 @@
 		00C6FA0746ADA6A4FAB4C37F8CE43FD8 /* KitFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KitFactory.h; sourceTree = "<group>"; };
 		0203996F67A00E4BA1F55EB35187A931 /* Pods-BaseUIManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseUIManager_Example-dummy.m"; sourceTree = "<group>"; };
 		0343C0E4BA771F9FAAF488E653D09570 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
-		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		045B71F6D450B9774A715E90B56D025C /* KVOController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.release.xcconfig; sourceTree = "<group>"; };
 		076471E359FC8A2A5ABEDB5837309628 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
 		08BDFFB65DF8AA6C16D9D3C632C4EDAC /* Pods-BaseUIManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseUIManager_Example.modulemap"; sourceTree = "<group>"; };
 		0A3CF6361C9C00BF4BD866401A344203 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
-		0D83E2024AD060073C08B83EB4DAE717 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
-		0DA30C295E5EBC8E133E478B438AC16E /* BaseUIManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BaseUIManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D83E2024AD060073C08B83EB4DAE717 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		0DA30C295E5EBC8E133E478B438AC16E /* BaseUIManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BaseUIManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0DB77B1C79DBEE0552602A98BBF811FA /* PodsIncludeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PodsIncludeCommon.h; sourceTree = "<group>"; };
 		0F23A546387473B2885978C433AFACC6 /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
 		12B2B8503DD7BA5D0820495747037A80 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
@@ -258,35 +260,35 @@
 		219E6F0980DD400763E747169F546147 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
 		21DDC22D8803A897A83FE579D9F0AE19 /* pop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.debug.xcconfig; sourceTree = "<group>"; };
 		22B592549D0D42D0FA54E1F4CBA9FF9D /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
-		22EE9CC872DEC7AB95084ED60868DB75 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		22EE9CC872DEC7AB95084ED60868DB75 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
 		251952FA762E166D0CE509F761AD4B9A /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
 		251D60A893F479C33123291FB0EED416 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		25467805CAF621B57F001BD0DB0D0C3A /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
 		2548809EB62774799B03B31759C2E45E /* BaseCellLineViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseCellLineViewModel.h; sourceTree = "<group>"; };
-		25F18D1B6B5143BEF52BDC9EFD5CBE0A /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGSwipeTableCell.framework; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F18D1B6B5143BEF52BDC9EFD5CBE0A /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2621240A8AA319DFB23979A3271B223D /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
 		264D774FBFADBAB6889FB5183B49D4F7 /* Pods-BaseUIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseUIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2699B6D1263D5B500E6C096DB400ACDB /* UITableViewCell+LazyInitUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LazyInitUIKit.m"; sourceTree = "<group>"; };
 		2A5E9062747BE9D3F0890B8966077126 /* Pods-BaseUIManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseUIManager_Tests.modulemap"; sourceTree = "<group>"; };
 		2B9283A7223472D7CC282CDFE6B3CCAB /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
 		2C6530A4E63E80D20E64EC39FEF27ED2 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
-		2C7C4FA652B5369F4E47C024B712E334 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		2C7C4FA652B5369F4E47C024B712E334 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
 		2F00BEE59DC7EC91BB1C827BEF78C6A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		302418A211F83D55B7EF9E9E40952679 /* SimpleTableViewManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewManage.h; sourceTree = "<group>"; };
 		3035328BDB4D27B645720327132C59C1 /* UIFont+AdjustFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AdjustFont.m"; sourceTree = "<group>"; };
 		316612CB60866F3952D1AEFFE9E409E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		31A2E89A726F8874377168AD16EB5D36 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
 		32F94DF3ECA87C62EF4029FCC1ED8BEB /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
-		333BB35C33DB446B516C37E8B4C98F11 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
-		335CFE34F1D4420850DE902F78F59645 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		333BB35C33DB446B516C37E8B4C98F11 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		335CFE34F1D4420850DE902F78F59645 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
 		348FC18E5B01AF6440C46F24D5BA521D /* BaseUIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseUIManager-umbrella.h"; sourceTree = "<group>"; };
-		34DDFA43836B1405B3AC275FB3E3E2B4 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
-		36124C79C271391860918866DC35B519 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		34DDFA43836B1405B3AC275FB3E3E2B4 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		36124C79C271391860918866DC35B519 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
 		37D084E0FC51895748525E742A214F40 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
 		388D9616D2FE80894B88D2B8A8188796 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
-		3931D9BB34A2EA8B78895C18D6B0E0E7 /* Pods_BaseUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseUIManager_Example.framework; path = "Pods-BaseUIManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B061FF45D7FFB964BB041074C99F514 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		3931D9BB34A2EA8B78895C18D6B0E0E7 /* Pods_BaseUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399EC9508E73C0D54D9BBD8741FBA137 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B061FF45D7FFB964BB041074C99F514 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		3BE69A300A4C7EACDE32F451F242E000 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		3C084CE6513645E7F7792E9FC3247EEA /* MGSwipeTableCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGSwipeTableCell-Info.plist"; sourceTree = "<group>"; };
 		3C1669666061B45A9047ED0FB674924B /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
@@ -294,14 +296,14 @@
 		406F045BCEA28C79C3B331421C62514B /* BaseUIManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseUIManager.debug.xcconfig; sourceTree = "<group>"; };
 		40D991F5BCFB1A65025C63B9C90581CD /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
 		42B94F6D94D1FA715717A839367BA492 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
-		47142FE228B519BC09870620ABECEDE3 /* Pods_BaseUIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseUIManager_Tests.framework; path = "Pods-BaseUIManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47142FE228B519BC09870620ABECEDE3 /* Pods_BaseUIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseUIManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CCA7BE3890BB27A08C397590E14808 /* Pods-BaseUIManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseUIManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A0BEC17FADF17D282B2D9D9032CC55F /* KVOController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KVOController-Info.plist"; sourceTree = "<group>"; };
 		4AF395C7CF09CF21B68ECEDAC71849CE /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
 		4EA0A6170F28A1262B2AB77AB547D1AF /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		4F7A0A97B33A2675233B264A1EC5816F /* MGSwipeTableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.release.xcconfig; sourceTree = "<group>"; };
 		4FED6CB130517D199B64EE3CF14A8C9D /* NSObject+BottomSafeViewHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BottomSafeViewHeight.m"; sourceTree = "<group>"; };
-		51305B2D9D8DA36D89CC277D729083D2 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51305B2D9D8DA36D89CC277D729083D2 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C1ECD6D8699DEDF52600D6D6FDA728 /* UIView+LazyInitUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LazyInitUIKit.m"; sourceTree = "<group>"; };
 		532C38857495AB119CC548B37DC5D7B1 /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
 		53969028FB0BE2E1A37B144B9B9A443A /* UITableViewCell+LazyInitUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LazyInitUIKit.h"; sourceTree = "<group>"; };
@@ -311,7 +313,7 @@
 		5DFA99785F9D3B06C1C245DC55BD7AD4 /* BaseTableManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTableManager.m; sourceTree = "<group>"; };
 		5DFF2D06AB16B7272A672F6DD864F0C0 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
 		5E53075BCBCFE9E7B65B2F2303DB75CA /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
-		5ED56F633B80784AD545F61D6CB176D1 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		5ED56F633B80784AD545F61D6CB176D1 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
 		5FA0E3B9D1008430E2081C69868907F5 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
 		5FCD6E5A2EC7776048F911874E30CCAB /* SimpleTableViewManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewManage.m; sourceTree = "<group>"; };
 		607B2EFB8FA13C52BB07ED634B319610 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
@@ -320,7 +322,7 @@
 		657EABCD9E855BB3C82E85C2E3B5A30E /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
 		66BC87CFA0ECB92EA2C0AF7FE6969AE6 /* Pods-BaseUIManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseUIManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66E4F6A6A7E4954F1234824CB32911A8 /* Pods-BaseUIManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseUIManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		6738DBBD513529FB3008AA6CD20007ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6738DBBD513529FB3008AA6CD20007ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67443832C22D7382F271D83183A42663 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
 		681672FD9708BBC606F40036A6FCC30F /* Pods-BaseUIManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseUIManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		694BC66971AB33DB750412C42970E794 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
@@ -330,17 +332,17 @@
 		6BC8B9743BE841A7959D24A039C2BE36 /* pop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
 		6DE7351F1E454B9CE2D6D90BCB134BF6 /* NSObject+BottomSafeViewHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+BottomSafeViewHeight.h"; sourceTree = "<group>"; };
 		6DF9E080A9A1ED9063D387790E4AE632 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6E92E4DF34FC64D14F548EB279F11294 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		6E92E4DF34FC64D14F548EB279F11294 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
 		6FC3A7835FF43AC9AE743B2AFFB7F558 /* Pods-BaseUIManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseUIManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		7116EAEC8E148692BB805633A59F6B1B /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
 		727FD87D899C3AAAF1CF7DED840ECB35 /* CategoryCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CategoryCommon.h; sourceTree = "<group>"; };
 		74D868923ABA9788230385E1C30CFA24 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
-		7564B2EE3C0DC2C928E6A1DACB13A645 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
-		761AB0D8C801C75A171DE4039AF38613 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7564B2EE3C0DC2C928E6A1DACB13A645 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		761AB0D8C801C75A171DE4039AF38613 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		79515FBBA43B1E0B227C1895E627C595 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
 		7A4EA21B1C170473BC2873519B804AB8 /* Pods-BaseUIManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseUIManager_Example-Info.plist"; sourceTree = "<group>"; };
-		7BB1566BEADF5E3A8114DD6F5BE0048B /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
-		7C486D00DC77642E986676AFA0896596 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		7BB1566BEADF5E3A8114DD6F5BE0048B /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		7C486D00DC77642E986676AFA0896596 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
 		7D8E2D8F6D48D2065E68A1ED4F45101E /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
 		7F3C3B6F159FAE9B51D83CE6BA9BE240 /* ChameleonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.debug.xcconfig; sourceTree = "<group>"; };
 		80F1E553E547044728E87F08169EDDD3 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
@@ -361,7 +363,7 @@
 		99B315F8339C28C050056676332EA926 /* BaseKvoObserveItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseKvoObserveItem.h; sourceTree = "<group>"; };
 		9A05322BD11F6D62D7F38E71AD0D1949 /* KitFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KitFactory.m; sourceTree = "<group>"; };
 		9B282699B8F89F1FC21C164885188B8D /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5D030E5A3DA01BDD94E20AB96C07E3 /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
 		A1D7F38C7B98B9B2164E15F0CE77450E /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
 		A29C14C9673E40A47BEAE42DF4D82D35 /* Pods-BaseUIManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseUIManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -373,14 +375,14 @@
 		A9D0CA5CF7FC15DD8F558A29C7F41B22 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
 		B12602A091870331FC78F32482528683 /* UITableView+RegisterCellClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterCellClass.h"; sourceTree = "<group>"; };
 		B344797AD76E075E1DB8EE9D44414EBD /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
-		B3C66C390B0494D58EC36C7B8BDB64A5 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		B3C66C390B0494D58EC36C7B8BDB64A5 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
 		B42FD2C0EBC9D4A3A213AF476665D5B9 /* Pods-BaseUIManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseUIManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B5905A95DADD1A554C8161E58DDDEA /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
 		B4C6389616AD6CAEC3CB04CE530850DD /* CommonFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonFile.h; sourceTree = "<group>"; };
-		B75DF755F14A7F0AB06AA284ECB8FC88 /* BaseUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseUIManager.framework; path = BaseUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75DF755F14A7F0AB06AA284ECB8FC88 /* BaseUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8937EFC6D0BB894170AB9DD77BFF702 /* BaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		B9BD857E806E87E5054121A27CFF6E26 /* MGSwipeTableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.debug.xcconfig; sourceTree = "<group>"; };
-		BB5480AFD67948457208BC5897F68F3C /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		BB5480AFD67948457208BC5897F68F3C /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
 		BB95D7D1EC3CD8926EE1A87FDECF2056 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
 		BD0822345DE48963F187C213BF992567 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
 		BEF29F8348FCC1E5831E18E7D22EBF82 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
@@ -388,6 +390,8 @@
 		BFDF7DFDB90A1A1FCA76DA8D79023DA0 /* Pods-BaseUIManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseUIManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1B3B6FE9C4F36F5A3351BDC5DAC734F /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
 		C1B7B565EACDF2739423D5A1FEA02F27 /* BaseUIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseUIManager.modulemap; sourceTree = "<group>"; };
+		C5A708B927EC1F90004F35BA /* KVOItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOItem.m; sourceTree = "<group>"; };
+		C5A708BB27EC1F90004F35BA /* KVOItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOItem.h; sourceTree = "<group>"; };
 		C5C3E3427A4F36524FDD296B7B0A7204 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
 		C91CF15E6C8F7AA3F5050634C801F86E /* pop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.release.xcconfig; sourceTree = "<group>"; };
 		CA47A47CEEF450B82F58321D1B9DB24C /* UIView+LazyInitUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LazyInitUIKit.h"; sourceTree = "<group>"; };
@@ -395,12 +399,12 @@
 		CD6D98C0FFCBAEC9252569509A442AF4 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
 		D185B5F3505FC6162364EECCCB037BB4 /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
 		D1FC452E2DE144C5B9C16DDE7642C1AB /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
-		D35C776B8CB87EB03CB07E924DDA7D55 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		D35C776B8CB87EB03CB07E924DDA7D55 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
 		D59A9E49E70C4A9684C5A13A9AF34EC7 /* BaseTableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseTableManager.h; sourceTree = "<group>"; };
 		D7809347BE4668673374ECE0B6FEB760 /* BaseUIManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseUIManager-prefix.pch"; sourceTree = "<group>"; };
 		D7B28AF0D1CBB1A87CF4153012A4D278 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
 		D9C4953EE06CD4244A6EAD9BA3E8DE9F /* UIView+Animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
-		DA703C35BE5AFB547BE1E9DD831BFCE8 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		DA703C35BE5AFB547BE1E9DD831BFCE8 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
 		DACE5896CDBEEEC19601D84B996E661D /* BaseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
 		DBC746F80A938697E3F42E39D1DC4253 /* GroupTableViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewManager.m; sourceTree = "<group>"; };
 		DBF1ADF56727173C631D2303A5C61B57 /* BaseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
@@ -496,7 +500,6 @@
 				82F87ADA28242402D5FCC2CC063D5CF2 /* MGSwipeTableCell.m */,
 				6100D987C3AA369941239F2397880694 /* Support Files */,
 			);
-			name = MGSwipeTableCell;
 			path = MGSwipeTableCell;
 			sourceTree = "<group>";
 		};
@@ -679,7 +682,6 @@
 				302418A211F83D55B7EF9E9E40952679 /* SimpleTableViewManage.h */,
 				5FCD6E5A2EC7776048F911874E30CCAB /* SimpleTableViewManage.m */,
 			);
-			name = Simple;
 			path = Simple;
 			sourceTree = "<group>";
 		};
@@ -718,7 +720,6 @@
 				57948D213606CA2EC905F240FB5D899D /* Default */,
 				7F0C4E0E37994EFB3C475E880F97B109 /* Support Files */,
 			);
-			name = ChameleonFramework;
 			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
@@ -746,7 +747,6 @@
 				EA069E007EC2ADD8B0F1FC5404AADCA9 /* GroupTableViewManager.h */,
 				DBC746F80A938697E3F42E39D1DC4253 /* GroupTableViewManager.m */,
 			);
-			name = Group;
 			path = Group;
 			sourceTree = "<group>";
 		};
@@ -758,6 +758,16 @@
 			);
 			name = BaseView;
 			path = BaseUIManager/Classes/BaseView;
+			sourceTree = "<group>";
+		};
+		C5A708B827EC1F90004F35BA /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				C5A708BB27EC1F90004F35BA /* KVOItem.h */,
+				C5A708B927EC1F90004F35BA /* KVOItem.m */,
+			);
+			name = KVO;
+			path = BaseUIManager/Classes/KVO;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -829,7 +839,6 @@
 				2145BC85E8B15102698DBD0B0F6ED4D7 /* UnitBezier.h */,
 				81C1CAB32014D24FF74C130D1E767940 /* Support Files */,
 			);
-			name = pop;
 			path = pop;
 			sourceTree = "<group>";
 		};
@@ -877,6 +886,7 @@
 		DE4A04FF1426898E8581FBF35C78638D /* BaseUIManager */ = {
 			isa = PBXGroup;
 			children = (
+				C5A708B827EC1F90004F35BA /* KVO */,
 				4BD4FBB52C16AA5447AE83BF1EED77CA /* BaseCollectionViewCell */,
 				FE586EBA165CCD7292E25057BEDBD493 /* BaseTableManager */,
 				5EF2E27F668CA7E371C5BBA69EEECD02 /* BaseTableviewCell */,
@@ -930,7 +940,6 @@
 				96689D94FF442B9FD937C2ED80662035 /* NSObject+FBKVOController.m */,
 				6411528A9DF1B8C201CA3900FC5074A6 /* Support Files */,
 			);
-			name = KVOController;
 			path = KVOController;
 			sourceTree = "<group>";
 		};
@@ -1059,6 +1068,7 @@
 				E2D8976B45ADDCB852E5830992065872 /* BaseCellLineViewModel.h in Headers */,
 				F75D2FBD2140B559595A1F246DFA1388 /* BaseCollectionViewCell.h in Headers */,
 				6DAB9583D328E3FADE31DA6221CF28A5 /* BaseKvoObserveItem.h in Headers */,
+				C5A708BF27EC1F90004F35BA /* KVOItem.h in Headers */,
 				F7EA03BF8818AFA0619A03D85E3B49C7 /* BaseTableManager.h in Headers */,
 				393AAD60E94E00C803D20E7AA43C7D98 /* BaseTableViewCell.h in Headers */,
 				3014994A082CB62AD1403EFCC953AB2D /* BaseUIManager-umbrella.h in Headers */,
@@ -1391,6 +1401,7 @@
 				8FADC5904C7AFC961D87B0FF364F557A /* GroupTableViewManager.m in Sources */,
 				29CE1C462ADCA7CAF627E8B6F1B99552 /* KitFactory.m in Sources */,
 				CF73803857FE8B63A22AFFEB4585C474 /* NSObject+BottomSafeViewHeight.m in Sources */,
+				C5A708BD27EC1F90004F35BA /* KVOItem.m in Sources */,
 				FBB0D9BF68E265E6B8CB7CB5C5A945DB /* SimpleTableViewManage.m in Sources */,
 				C3DEAF73DAC9954174D80CF7A6164550 /* UIFont+AdjustFont.m in Sources */,
 				8DD3D0AF3D0DF3EA32494C60D6B64369 /* UITableView+RegisterCellClass.m in Sources */,
@@ -1971,8 +1982,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

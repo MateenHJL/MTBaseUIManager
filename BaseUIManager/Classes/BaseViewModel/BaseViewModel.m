@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewModel.h" 
+#import "KVOItem.h"
 
 @interface BaseViewModel ()
 
@@ -51,6 +52,41 @@
     if (self.observerKeyPathChangedBlock)
     {
         self.observerKeyPathChangedBlock(self, keyPath, object);
+    }
+}
+
+- (void)executeKVOWithItem:(KVOItem *)kvoItem
+{
+    if (!kvoItem.dataObserve || !kvoItem.uiObserve || kvoItem.uiKeyPaths.count == 0)
+    {
+        return;
+    }
+    
+    [self setUnbindCellBlock:^(id originViewModel, BaseTableViewCell *cell) {
+        for (NSString *keyPath in kvoItem.uiKeyPaths)
+        {
+            [cell.KVOController unobserve:kvoItem.uiObserve keyPath:keyPath];
+        }
+    }];
+    
+    [self setBindCellBlock:^(id originViewModel, BaseTableViewCell *cell) {
+        [cell.KVOController observe:kvoItem.uiObserve keyPaths:kvoItem.uiKeyPaths options:NSKeyValueObservingOptionNew context:nil];
+    }];
+    
+    [self setObserverKeyPathChangedBlock:^(id originViewmodel, NSString *keyPath, id object) {
+        if (kvoItem.keyPathObservedCallback)
+        {
+            kvoItem.keyPathObservedCallback(originViewmodel, keyPath, object);
+        }
+    }];
+    
+    if (kvoItem.needRetainKVO)
+    {
+        [self.KVOController observe:kvoItem.dataObserve keyPaths:kvoItem.dataKeyPaths options:NSKeyValueObservingOptionNew context:nil];
+    }
+    else
+    {
+        [self.KVOControllerNonRetaining observe:kvoItem.dataObserve keyPaths:kvoItem.dataKeyPaths options:NSKeyValueObservingOptionNew context:nil];
     }
 }
 

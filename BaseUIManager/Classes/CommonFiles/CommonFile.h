@@ -17,6 +17,8 @@
 #import "BaseTableViewCell.h"
 #import "BaseCellLineViewModel.h"
 
+#import "KVOItem.h"
+
 #import "KitFactory.h"
 
 #import "CategoryCommon.h"

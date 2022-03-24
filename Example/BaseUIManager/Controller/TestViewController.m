@@ -33,6 +33,7 @@
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])
     {
         self.testtitle = @"TestTest";
+//        self.aa = YES;
     }
     return self;
 }
@@ -80,22 +81,35 @@
         if (1)
         {
             //如果有kVO
-            [viewModel setUnbindCellBlock:^(VirtualLineViewModel *originViewModel, BaseTableViewCell *cell) {
-                [cell.KVOController unobserve:originViewModel keyPath:@"title"];
-            }];
-            
-            [viewModel setBindCellBlock:^(VirtualLineViewModel *originViewModel, BaseTableViewCell *cell) {
-                [cell.KVOController observe:originViewModel keyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
-            }];
-            
-            [viewModel setObserverKeyPathChangedBlock:^(VirtualLineViewModel *viewModel, NSString *keyPath, TestViewController *object) {
+            KVOItem *item = [[KVOItem alloc] init];
+            item.dataObserve = self;
+            item.needRetainKVO = NO;
+            item.dataKeyPaths = @[@"testtitle"];
+            item.uiObserve = viewModel;
+            item.uiKeyPaths = @[@"title"];
+            [item setKeyPathObservedCallback:^(VirtualLineViewModel *  _Nonnull originViewModel, NSString * _Nonnull keyPath, TestViewController *  _Nonnull object) {
                 if ([keyPath isEqualToString:@"testtitle"])
                 {
-                    viewModel.title = object.testtitle;
+                    originViewModel.title = object.testtitle;
                 }
             }];
-            
-            [viewModel.KVOController observe:self keyPath:@"testtitle" options:NSKeyValueObservingOptionNew context:nil];
+            [viewModel executeKVOWithItem:item];
+//            [viewModel setUnbindCellBlock:^(VirtualLineViewModel *originViewModel, BaseTableViewCell *cell) {
+//                [cell.KVOController unobserve:originViewModel keyPath:@"title"];
+//            }];
+//
+//            [viewModel setBindCellBlock:^(VirtualLineViewModel *originViewModel, BaseTableViewCell *cell) {
+//                [cell.KVOController observe:originViewModel keyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
+//            }];
+//
+//            [viewModel setObserverKeyPathChangedBlock:^(VirtualLineViewModel *viewModel, NSString *keyPath, TestViewController *object) {
+//                if ([keyPath isEqualToString:@"testtitle"])
+//                {
+//                    viewModel.title = object.testtitle;
+//                }
+//            }];
+//
+//            [viewModel.KVOController observe:self keyPath:@"testtitle" options:NSKeyValueObservingOptionNew context:nil];
         }
         
         [self.viewModels addObject:[self oneButtonViewModelWithTitle:@"登录" backgroundColor:rgb(246, 246, 249) textColor:rgb(175, 177, 184) cellType:0 hasBoardColor:NO]];
@@ -114,7 +128,7 @@
     self.table                 = [KitFactory tableView];
     self.table.delegate        = self;
     self.table.dataSource      = self;
-    self.table.frame           = CGRectMake(0,  0, self.view.frame.size.width, self.view.frame.size.height);
+    self.table.frame           = CGRectMake(0,  200, self.view.frame.size.width, self.view.frame.size.height);
     [self.view addSubview:self.table];
     
     

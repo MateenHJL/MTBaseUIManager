@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseUIManager'
-  s.version          = '1.5.3'
+  s.version          = '1.5.4'
   s.summary          = 'CONTACT IF YOU HAVE ANY ISSUE:13162378587@163.COM'
 
 # This description is used to generate tags and improve search results.

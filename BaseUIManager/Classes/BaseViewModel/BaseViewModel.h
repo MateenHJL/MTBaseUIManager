@@ -13,6 +13,7 @@
 @class BaseView;
 @class BaseCollectionViewCell; 
 @class BaseTableViewCell;
+@class KVOItem;
 
 typedef NS_ENUM(NSInteger , BaseViewModelKVOUIType) {
     BaseViewModelKVOUIType_Cell,//BaseTableviewCell
@@ -71,5 +72,8 @@ typedef void(^valueHasBeenModifiedBlock)(id viewModel , id object);
 
 //unbind TableviewCellBlock
 @property (nonatomic,copy    ) void(^observerKeyPathChangedBlock)(id viewModel, NSString *keyPath, id object);
+
+//excute KVO
+- (void)executeKVOWithItem:(KVOItem *)kvoItem;
 
 @end
